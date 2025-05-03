@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
             $admin = User::create([
                 'name' => 'admin',
                 'email' => 'ite@gmail.com',
-                'password' => Hash::make('12345678'), // Cambia '12345678' por tu contraseña preferida
+                'password' => Hash::make('*Lobacude13*'), // Cambia '12345678' por tu contraseña preferida
                 'email_verified_at' => now(),
             ]);
         }
